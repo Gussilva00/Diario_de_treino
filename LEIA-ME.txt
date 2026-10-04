@@ -1,0 +1,13 @@
+COMO GERAR O APK (sem instalar nada no computador)
+
+1. Crie uma conta gratuita em github.com e um repositório novo (ex.: diario-de-treino).
+2. Envie TODO o conteúdo desta pasta para o repositório, incluindo a pasta
+   oculta ".github" (arraste as pastas para a página "Add file > Upload files").
+3. No repositório, abra a aba "Actions" > "Gerar APK" > "Run workflow".
+4. Aguarde uns 5 a 10 minutos. Abra a execução concluída e, em "Artifacts",
+   baixe "diario-de-treino-apk". Dentro do .zip está o app-debug.apk.
+5. Passe o app-debug.apk para o celular (WhatsApp, Drive, cabo) e abra.
+   O Android vai pedir para permitir "instalar apps desconhecidos": autorize.
+
+Para mudar o app, edite o arquivo www/index.html no GitHub e rode o workflow de novo.
+Os dados de treino ficam salvos dentro do app, em cada celular.
